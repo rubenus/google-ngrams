@@ -11,6 +11,12 @@ Here you'll find a basic python script to retrieve data behind the trajectories 
 
 # Usage #
 
+[Ruben - Last Update 2021-11-25] An example of successful use: 
+
+```
+python getngrams.py "echo chamber" -startYear=2000 -endYear=2019 -smoothing=0 -corpus=eng_2019
+```
+
 Simply type the same query you would type at the [Google Ngram Viewer](http://books.google.com/ngrams) and retrieve the data in csv format.
 
 <img src="https://s3.amazonaws.com/ngramplots/xkcd_demo3.png" height="315" width="420" align="left">
